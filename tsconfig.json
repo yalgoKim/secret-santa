@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      "types": ["vite/client"],   // ✅ 이 줄 추가!
+      "strict": true,
+      "jsx": "preserve",
+      "baseUrl": "."
+    },
+    "include": ["src"]
+  }
